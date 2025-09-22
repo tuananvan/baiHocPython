@@ -30,5 +30,6 @@ for item in checklist_day3:
     row_cells[1].text = item[1]
     row_cells[2].text = item[2]
 
-# Lưu file
+# Lưu file Word
 doc.save("HTML_Day3_Checklist.docx")
+print("✅ Đã tạo file: HTML_Day3_Checklist.docx")
